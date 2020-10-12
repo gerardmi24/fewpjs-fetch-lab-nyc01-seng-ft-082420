@@ -2,7 +2,7 @@
 let bookUrl = "https://anapioficeandfire.com/api/books/"
 
 function fetchBooks(){
-  fetch(bookUrl)
+  return fetch(bookUrl)
   .then(resp => resp.json())
   .then(json => renderBooks(json));
 }
