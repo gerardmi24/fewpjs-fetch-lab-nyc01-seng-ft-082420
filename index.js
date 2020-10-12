@@ -1,5 +1,5 @@
 
-let bookUrl = "https://anapioficeandfire.com/api/books/"
+let bookUrl = "https://anapioficeandfire.com/api/books"
 
 function fetchBooks(){
   return fetch(bookUrl)
